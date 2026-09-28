@@ -58,6 +58,7 @@ def detect_injection(user_input: str) -> InputStatus:
         r"\byou\s+are\s+now\b",
         r"\bsystem\s+prompt\b",
         r"\breveal\s+(?:your\s+)?(?:instructions?|prompt)\b",
+        r"\bpretend\s+(?:that\s+)?you\s+are\b",
         r"\b(?:pretend|act)\s+as\s+(?:a[n]?\s+)?unrestricted\b",
         r"\b(?:disregard|forget|override)\s+(?:all\s+)?(?:the\s+)?instructions?\b",
         r"\b(?:show|tell|give)\s+me\s+(?:the\s+)?(?:hidden\s+)?(?:prompt|instructions?)\b",
